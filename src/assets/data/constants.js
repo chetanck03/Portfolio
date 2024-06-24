@@ -211,7 +211,7 @@ export const projects = [
     description:
       "Developed a fully functional e-commerce website using React.js and Firebase, packed with features that enhance the user experience. From a comprehensive product catalog and secure user authentication to a smooth checkout process and a robust admin panel, this project has been an incredible learning journey..",
     image:
-      "../src/assets/images/ecom.png",
+      "./images/ecom.png",
     tags: ["React Js", "MongoDb", "Node Js", "Express Js"],
     category: "web app",
     github: "https://github.com/chetanck03/CodingRajaTechnologiesInternship__Ecommerce_Website",
@@ -226,7 +226,7 @@ export const projects = [
     description:
       "Developed a full-stack pizza ordering application using Next.js. This application allows users to seamlessly browse the menu, customize their pizza, and place orders online. The user-friendly interface ensures an easy ordering experience, while the backend efficiently manages order processing and updates.",
     image:
-      "../src/assets/images/pizza.png",
+      "./images/pizza.png",
     tags: ["React Js", "MongoDb", "Node Js", "Express Js"],
     category: "web app",
     github: "https://github.com/chetanck03/Pizza_NextJs",
@@ -240,7 +240,7 @@ export const projects = [
     description:
       "Develop a blogging platform where users can create, edit, and publish their blog posts.Dive into the world of blogging with user authentication, post creation, categorization, comments, and more.Built with Next js & MongoDB (database).",
     image:
-      "../src/assets/images/blog.png ",
+      "./images/blog.png ",
     tags: ["React Js", "MongoDb", "Node Js", "Express Js"],
     category: "web app",
     github: "https://github.com/chetanck03/CodingRajaTechnologiesInternship__BloggingPlatform",
@@ -255,7 +255,7 @@ export const projects = [
     description:
       "Developed the crypto trading bot is a web application that uses next.js, mongodb, blockchain, javascript, uniswap v3, and css to provide a user-friendly and powerful platform for trading cryptocurrencies. s.",
     image:
-      "../src/assets/images/crypto.png ",
+      "./images/crypto.png ",
     tags: ["React Js", "MongoDb", "Node Js", "Express Js"],
     category: "blockchain",
     github: "https://github.com/chetanck03/Hack-n-Win-TeamNo.-100",
@@ -269,7 +269,7 @@ export const projects = [
     description:
       "Created a tool that enables users to generate visually appealing backgrounds with gradients. This application includes options for color selection, gradient types, and real-time background preview.",
     image:
-      "../src/assets/images/bg.png ",
+      "./images/bg.png ",
     tags: ["React Js", "MongoDb", "Node Js", "Express Js"],
     category: "web app",
     github: "https://github.com/chetanck03/CodeClauseInternship/tree/main/CodeClauseInternship_02)_Background_Generator",
@@ -283,7 +283,7 @@ export const projects = [
     description:
       "Developed a web-based food delivery application using the MERN (MongoDB, Express.js, React, Node.js) stack.This project demonstrates my proficiency in full-stack development and showcases my ability to create practical solutions for online food ordering",
     image:
-      "../src/assets/images/food.png ",
+      "./images/food.png ",
     tags: ["React Js", "MongoDb", "Node Js", "Express Js"],
     category: "web app",
     github: "https://github.com/chetanck03/CodingRajaTechnologiesInternship__BloggingPlatform",
@@ -298,7 +298,7 @@ export const projects = [
     description:
       "Created a tool that enables users to connects coders with mentors, resources, and opportunities to learn and grow. You can also support the community by donating ethers – fueling innovation one cup of coffee or chai at a time. ",
     image:
-      "../src/assets/images/chai.png ",
+      "./images/chai.png ",
     tags: ["React Js", "MongoDb", "Node Js", "Express Js"],
     category: "blockchain",
     github: "https://www.linkedin.com/posts/chetan-kumar-022717277_web3-blockchain-techforgood-activity-7142118818788630528-Yxnu?utm_source=share&utm_medium=member_desktop",
@@ -312,7 +312,7 @@ export const projects = [
     description:
       "I developed a web-based Music Player application using the Javascript , Html & CSS .This project demonstrates my proficiency in JavaScript and showcases my ability to create practical solutions Music Platform",
     image:
-      "../src/assets/images/music.png ",
+      "./images/music.png ",
     tags: ["React Js", "MongoDb", "Node Js", "Express Js"],
     category: "web app",
     github: "https://github.com/chetanck03/GitHub/tree/main/08)%20SpotifyClone",

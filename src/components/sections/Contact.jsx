@@ -137,7 +137,7 @@ const Contact = () => {
   };
   return (
     
-    <Container id="Education">
+    <Container id="Contact">
         <StarCanvas/>
       <Wrapper>
         <Title>Contact</Title>

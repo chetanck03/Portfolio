@@ -55,7 +55,9 @@ const Education = () => {
     <Container id="Education">
           <StarCanvas/>
 
+
       <Wrapper>
+
         <Title>Education</Title>
         <Desc
           style={{

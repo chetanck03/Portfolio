@@ -15,6 +15,8 @@ import StarCanvas from "../canvas/Stars.jsx"
 const HeroContainer = styled.div`
      display:flex;
      /* background-color:red; */
+     width: 100%;
+     height: 100%;
      justify-content:center;
      position:relative;
      padding: 80px 30px;
@@ -220,8 +222,8 @@ const HeroBg = styled.div`
 `;
 function Hero() {
   return (
-    <div id='about'>
-      <HeroContainer>
+    <div >
+      <HeroContainer id='Hero'>
         {/* Animation */}
         <HeroBg>
           <StarCanvas />
@@ -264,7 +266,8 @@ function Hero() {
             <HeroRightContainer>
             <motion.div {...headContentAnimation}>
               <Tilt>
-                <Img src={"../src/assets/images/chetan.jpg"} alt="Chetan Kumar" />
+                <Img src={"./images/chetan.jpg"} alt="Chetan Kumar" />
+               
               </Tilt>
               </motion.div>
 

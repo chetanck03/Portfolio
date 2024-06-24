@@ -1,6 +1,6 @@
-import React from "react";
 import styled from "styled-components";
 import { Bio } from "../assets/data/constants";
+
 import {
   FacebookRounded,
   Instagram,
@@ -37,6 +37,7 @@ const Nav = styled.ul`
   width: 100%;
   max-width: 800px;
   margin-top: 0.5rem;
+  /* background-color:red; */
   display: flex;
   flex-direction: row;
   gap: 2rem;
@@ -44,6 +45,8 @@ const Nav = styled.ul`
   @media (max-width: 768px) {
     flex-wrap: wrap;
     gap: 1rem;
+  cursor: pointer;
+
     justify-content: center;
     text-align: center;
     font-size: 12px;
@@ -67,6 +70,7 @@ const SocialMediaIcons = styled.div`
 `;
 const SocialMediaIcon = styled.a`
   display: inline-block;
+  /* background-color:brown; */
   margin: 0 1rem;
   font-size: 1.5rem;
   color: ${({ theme }) => theme.text_primary};
@@ -88,7 +92,7 @@ const Footer = () => {
       <StarCanvas/>
       <FooterWrapper>
         <Logo>Chetan Kumar</Logo>
-        <Nav>
+        <Nav to='/'>
           <NavLink href="#About">About</NavLink>
           <NavLink href="#Skills">Skills</NavLink>
           <NavLink href="#Experience">Experience</NavLink>

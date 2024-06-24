@@ -54,8 +54,10 @@ function App() {
             <div>
 
               <Hero />
+              <Skills />
+
               <Wrapper>
-                <Skills />
+                {/* <Skills /> */}
                 <Experience />
               </Wrapper>
 

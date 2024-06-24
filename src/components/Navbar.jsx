@@ -141,7 +141,7 @@ function Navbar() {
     const theme = useTheme()
     return (
 
-        <Nav>
+        <Nav >
             <NavbarContainer>
                 {/*Logo */}
                 <NavLogo to='/'><a>Portfolio</a></NavLogo>
@@ -167,6 +167,9 @@ function Navbar() {
                         <NavLink onClick={() => setOpen(!open)} href="#Education">
                             Education
                         </NavLink>
+                        <NavLink onClick={() => setOpen(!open)} href="#Contact">
+                            Contact
+                        </NavLink>
                         <GithubButton
                             href={Bio.github}
                             target="_Blank"
@@ -181,11 +184,12 @@ function Navbar() {
                 )}
                 {/*Nav Items */}
                 <NavItems>
-                    <NavLink href='#About'>About</NavLink>
+                    <NavLink href='#Hero'>About</NavLink>
                     <NavLink href='#Skills'>Skills</NavLink>
                     <NavLink href='#Experience'>Experience</NavLink>
                     <NavLink href='#Projects'>Projects</NavLink>
                     <NavLink href='#Education'>Education</NavLink>
+                    <NavLink href='#Contact'>Contact</NavLink>
                 </NavItems>
                 {/* GitHub Button  */}
                 <ButtonContainer>
