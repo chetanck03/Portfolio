@@ -2,7 +2,7 @@ import { VerticalTimeline } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import styled from "styled-components";
 import { experiences } from "../../data/constants";
-import ExperienceCard from "../Cards/ExperienceCard";
+import ExperienceCard from "../cards/ExperienceCard";
 import StarCanvas from "../canvas/Stars.jsx"
 
 
@@ -53,7 +53,7 @@ const Desc = styled.div`
 const Experience = () => {
   return (
     <Container id="Experience">
-          <StarCanvas/>
+      <StarCanvas />
 
       <Wrapper>
         <Title>Experience</Title>

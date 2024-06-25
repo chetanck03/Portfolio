@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import { projects } from "../../data/constants";
-import ProjectCard from "../Cards/ProjectCard";
+import ProjectCard from "../cards/ProjectCard";
 import StarCanvas from "../canvas/Stars.jsx"
 
 
@@ -96,7 +96,7 @@ const Projects = () => {
   const [toggle, setToggle] = useState("all");
   return (
     <Container id="Projects">
-        <StarCanvas/>
+      <StarCanvas />
       <Wrapper>
         <Title>Projects</Title>
         <Desc
@@ -123,7 +123,7 @@ const Projects = () => {
             WEB APP'S
           </ToggleButton>
           <Divider />
-         
+
           <ToggleButton
             active={toggle === "blockchain"}
             onClick={() => setToggle("blockchain")}
