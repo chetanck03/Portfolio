@@ -1,8 +1,9 @@
 import styled, { useTheme } from 'styled-components'
 import { Link as LinkR } from 'react-router-dom'
-import { Bio } from "../assets/data/constants";
+import { Bio } from "../data/constants";
 import { MenuOpenRounded } from '@mui/icons-material';
 import { useState } from 'react';
+import { DiCssdeck } from 'react-icons/di';
 
 const Nav = styled.div`
     background-color:${({ theme }) => theme.bg};
@@ -144,7 +145,11 @@ function Navbar() {
         <Nav >
             <NavbarContainer>
                 {/*Logo */}
-                <NavLogo to='/'><a>Portfolio</a></NavLogo>
+                <NavLogo to='/'>
+                    <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
+                        <DiCssdeck size="3rem" /> <span>Portfolio</span>
+                    </a>
+                </NavLogo>
 
                 {/* Icon */}
                 <MobileIcon onClick={() => setOpen(!open)}>

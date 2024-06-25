@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import { projects } from "../../assets/data/constants";
-import ProjectCard from "../cards/ProjectCard";
+import { projects } from "../../data/constants";
+import ProjectCard from "../Cards/ProjectCard";
 import StarCanvas from "../canvas/Stars.jsx"
 
 

@@ -1,15 +1,17 @@
 import styled, { ThemeProvider } from "styled-components"
-import { darkTheme } from "./assets/utils/Themes"
 import Navbar from "./components/Navbar"
 import Footer from "./components/Footer"
-import { BrowserRouter } from "react-router-dom"
+import "./App.css"
+import { BrowserRouter as Router } from "react-router-dom"
 import Hero from "./components/sections/Hero"
 import Skills from "./components/sections/Skills"
 import Experience from "./components/sections/Experience"
 import Education from "./components/sections/Education"
 import StyledStarsCanvas from "./components/canvas/Stars"
 import Projects from "./components/sections/Projects"
-import Contact from "./components/sections/Contact"
+import Contact from "./components/Contact/Contact.jsx"
+import { useState } from "react"
+import { darkTheme ,lightTheme } from "./utils/Themes.js"
 
 
 
@@ -39,41 +41,40 @@ const Wrapper = styled.div`
 `;
 
 function App() {
+  const [darkMode, setDarkMode] = useState(true)
+  const [openModal, setOpenModal] = useState({state:false,project:null})
 
   return (
     <>
-      <ThemeProvider theme={darkTheme}>
-
-
-        <BrowserRouter>
+      <ThemeProvider theme={darkMode?darkTheme:lightTheme}>
+        <Router>
           <Navbar />
-
           <Body>
-            <StyledStarsCanvas/>
-
-            <div>
-
               <Hero />
-              <Skills />
 
               <Wrapper>
-                {/* <Skills /> */}
+                <Skills />
                 <Experience />
               </Wrapper>
 
-              <Projects/>
+              <Projects openModal={openModal} setOpenModal={setOpenModal}/>
 
               <Wrapper>
-              <Education />
-              <Contact/>
+                <Education />
+                <Contact/>
               </Wrapper>
           <Footer />
 
-            </div>
+          {/* {
+            openModal.state &&
+            <ProjectDetails openModal={openModal} setOpenModal={setOpenModal}/>
+
+          } */}
+
 
           </Body>
 
-        </BrowserRouter>
+        </Router>
 
       </ThemeProvider>
 

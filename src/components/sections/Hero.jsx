@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import { Bio } from "../../assets/data/constants";
+import { Bio } from "../../data/constants";
 import Typewriter from "typewriter-effect";
 import HeroBgAnimation from "../../components/HeroBgAnimation/index.jsx";
 import { Tilt } from "react-tilt";
@@ -8,7 +8,7 @@ import {
   headContainerAnimation,
   headContentAnimation,
   headTextAnimation,
-} from "../../assets/utils/motion";
+} from "../../utils/motion";
 import StarCanvas from "../canvas/Stars.jsx"
 
 

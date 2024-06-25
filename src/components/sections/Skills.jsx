@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { skills } from "../../assets/data/constants";
+import { skills } from "../../data/constants";
 import { Tilt } from "react-tilt";
 import StarCanvas from "../canvas/Stars.jsx"
 
@@ -27,7 +27,7 @@ const Wrapper = styled.div`
     flex-direction: column;
   }
 `;
-const Title = styled.div`
+export const Title = styled.div`
   font-size: 52px;
   text-align: center;
   font-weight: 600;
@@ -38,7 +38,7 @@ const Title = styled.div`
     font-size: 32px;
   }
 `;
-const Desc = styled.div`
+export const Desc = styled.div`
   font-size: 18px;
   text-align: center;
   font-weight: 600;
@@ -120,7 +120,7 @@ const SkillImage = styled.img`
 const Skills = () => {
   return (
     <Container id="Skills">
-          <StarCanvas/>
+          {/* <StarCanvas/> */}
 
       <Wrapper>
         <Title>Skills</Title>
@@ -134,21 +134,20 @@ const Skills = () => {
         </Desc>
 
         <SkillsContainer>
-          {skills.map((skill, index) => (
-            <Tilt>
-              <Skill key={`skill-${index}`}>
-                <SkillTitle>{skill.title}</SkillTitle>
-                <SkillList>
-                  {skill.skills.map((item, index_x) => (
-                    <SkillItem key={`skill-x-${index_x}`}>
-                      <SkillImage src={item.image} />
-                      {item.name}
-                    </SkillItem>
-                  ))}
-                </SkillList>
-              </Skill>
-            </Tilt>
+          {skills.map((skill) => (
+            <Skill>
+              <SkillTitle>{skill.title}</SkillTitle>
+              <SkillList>
+                {skill.skills.map((item) => (
+                  <SkillItem>
+                    <SkillImage src={item.image}/>
+                    {item.name}
+                  </SkillItem>
+                ))}
+              </SkillList>
+            </Skill>
           ))}
+
         </SkillsContainer>
       </Wrapper>
     </Container>

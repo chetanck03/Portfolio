@@ -2,8 +2,8 @@ import React from "react";
 import { VerticalTimeline } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import styled from "styled-components";
-import { education } from "../../assets/data/constants";
-import EducationCard from "../cards/EducationCard";
+import { education } from "../../data/constants";
+import EducationCard from "../Cards/EducationCard";
 import EarthCanvas from "../canvas/Earth";
 import StarCanvas from "../canvas/Stars.jsx"
 

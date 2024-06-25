@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import styled from "styled-components";
 import emailjs from "@emailjs/browser";
-import StarCanvas from "../canvas/Stars.jsx"
+import { Snackbar } from "@mui/material";
 
 
 
@@ -109,8 +109,10 @@ const ContactButton = styled.input`
 `;
 
 const Contact = () => {
-  const form = useRef(null);
-  // const form = useRef();
+
+  const [open,setOpen] = React.useState(false)
+  const form = useRef();
+
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("hi")
@@ -123,22 +125,18 @@ const Contact = () => {
         form.current,
         "R07fw9vAwA2mJdqCO"
       )
-      .then(
-        (result) => {
-          alert("Message Sent");
-         console.log("sent")
-
-          form.current.result();
+      .then((result) => {
+            setOpen(true)
+            form.current.reset();
         },
         (error) => {
-          alert(error);
+            console.log(error.text)
         }
       );
   };
   return (
     
     <Container id="Contact">
-        <StarCanvas/>
       <Wrapper>
         <Title>Contact</Title>
         <Desc
@@ -148,7 +146,7 @@ const Contact = () => {
         >
           Feel free to reach out to me for any questions or opportunities!
         </Desc>
-        <ContactForm onSubmit={handleSubmit}>
+        <ContactForm ref={form} onSubmit={handleSubmit}>
           <ContactTitle>Email Me 🚀</ContactTitle>
           <ContactInput placeholder="Your Email" name="from_email" />
           <ContactInput placeholder="Your Name" name="from_name" />
@@ -156,6 +154,13 @@ const Contact = () => {
           <ContactInputMessage placeholder="Message" name="message" rows={4} />
           <ContactButton type="submit" value="Send" />
         </ContactForm>
+        <Snackbar
+          open={open}
+          autoHideDuration={6000}
+          onClose={()=>setOpen(false)}
+          message="Email sent successfully!"
+          severity="success"
+        />
       </Wrapper>
     </Container>
   );

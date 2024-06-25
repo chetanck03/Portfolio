@@ -1,8 +1,8 @@
 import { VerticalTimeline } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import styled from "styled-components";
-import { experiences } from "../../assets/data/constants";
-import ExperienceCard from "../cards/ExperienceCard";
+import { experiences } from "../../data/constants";
+import ExperienceCard from "../Cards/ExperienceCard";
 import StarCanvas from "../canvas/Stars.jsx"
 
 
