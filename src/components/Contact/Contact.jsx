@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { Snackbar } from '@mui/material';
+import StarCanvas from "../canvas/Stars.jsx"
 
 const Container = styled.div`
 display: flex;
@@ -144,6 +145,8 @@ const Contact = () => {
 
   return (
     <Container id="Contact">
+      <StarCanvas />
+
       <Wrapper>
         <Title>Contact</Title>
         <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
