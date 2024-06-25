@@ -19,6 +19,7 @@
     "@react-three/drei": "^9.106.0",
     "@react-three/fiber": "^8.16.8",
     "emailjs": "^4.0.3",
+    "emailjs-com": "^3.2.0",
     "framer-motion": "^11.2.10",
     "maath": "^0.10.7",
     "pdf-viewer-reactjs": "^2.2.3",
