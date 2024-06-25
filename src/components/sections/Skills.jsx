@@ -121,6 +121,7 @@ const Skills = () => {
   return (
     <Container id="Skills">
           <StarCanvas/>
+          
 
       <Wrapper>
         <Title>Skills</Title>
@@ -132,10 +133,14 @@ const Skills = () => {
           Here are some of my skills on which I have been working on for the
           past 3 years.
         </Desc>
-
+      
         <SkillsContainer>
+
           {skills.map((skill) => (
+        <Tilt>
+
             <Skill>
+            
               <SkillTitle>{skill.title}</SkillTitle>
               <SkillList>
                 {skill.skills.map((item) => (
@@ -146,9 +151,11 @@ const Skills = () => {
                 ))}
               </SkillList>
             </Skill>
+        </Tilt>
           ))}
 
         </SkillsContainer>
+
       </Wrapper>
     </Container>
   );
