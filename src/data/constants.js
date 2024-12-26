@@ -172,7 +172,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "./public/images/codingRaja.png",
+    img: "https://white-adjacent-cat-259.mypinata.cloud/ipfs/bafkreiaf65qmmujr5cwuo5v6kc7zbynzgelubse6uqf5dpj4obfg7vazsy",
     role: "Full Stack Webdevelopment Intern",
     company: "Coding Raja Technologies",
     date: "May 2024 - June 2024",
@@ -190,7 +190,7 @@ export const experiences = [
   },
   {
     id: 1,
-    img: "./public/images/skill india.png",
+    img: "https://white-adjacent-cat-259.mypinata.cloud/ipfs/bafkreifhllgkps7g2pqgwxusjf4npntmrmbe46q7pegjgp2i3oxgmft6su",
     role: "Web Development Intern",
     company: "Skill India",
     date: "June 2024 - July 2024",
@@ -209,7 +209,7 @@ export const experiences = [
   },
   {
     id: 2,
-    img: "./public/images/girlScript.jpeg",
+    img: "https://white-adjacent-cat-259.mypinata.cloud/ipfs/bafkreihzn3exhhiwxgdpe4ihui2zqtvqemca5wdxw7pe3v52odyc5b4j2m",
     role: "Open Source Contributor ",
     company: "GirlScript Summer of Code",
     date: "May 2024 - Present",
@@ -227,7 +227,7 @@ export const experiences = [
   },
   {
     id: 3,
-    img: "./public/images/fiverr.png", // Add your Fiverr logo or image path here
+    img: "https://white-adjacent-cat-259.mypinata.cloud/ipfs/bafkreidfj4hkovhcmrmmpghdcbivts3qgymp3kb35oa7b5xxuoyuqydptm", // Add your Fiverr logo or image path here
     role: "Freelancer",
     company: "Fiverr",
     date: "Nov 2024 - Present",
@@ -297,7 +297,7 @@ export const projects = [
     tags: ["Solidity", "Ethereum", "Web3", "Smart Contracts", "Blockchain"],
     category: "blockchain",
     github: "https://github.com/chetanck03/BootCamp_Blockchain/tree/main/Projects/07)VotingDApp/VotingDApp-9",
-    webapp: "https://voting-d-app-client.vercel.app/",
+    webapp: "https://vote-dapp-gules.vercel.app/",
   },
   {
     id: 0,
