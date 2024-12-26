@@ -259,7 +259,7 @@ function Hero() {
               </motion.div>
               {/* Resume Button */}
               {/* <ResumeButton >Check Resume</ResumeButton> */}
-              <ResumeButton href={Bio.resume} target="_blank">Check Resume</ResumeButton>
+              <ResumeButton href={Bio.resume} target="_blank">CK Tech Hub</ResumeButton>
             </HeroLeftContainer>
 
             {/* Right Side */}

@@ -1,21 +1,23 @@
 export const Bio = {
   name: "Chetan Kumar",
   roles: [
+    "Blockchain Developer",
     "Full Stack Developer",
-    "Web3 Developer",
+    "Freelancer",
     "UI/UX Designer",
     "Programmer",
   ],
   description:
-    "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+    "I am the founder of CK Tech Hub, offering freelancing services as a Blockchain and Full Stack Developer. I specialize in creating decentralized applications, smart contracts, and building full-stack web platforms. I’m passionate about delivering high-quality solutions and always eager to take on new challenges.",
   github: "https://github.com/chetanck03",
   resume:
-    "https://drive.google.com/file/d/14FHsFhd15dsnjDzm-IHdnQWJwMlNtPDW/view?usp=drivesdk",
+    "https://ck-tech-hub.vercel.app/",
   linkedin: "https://www.linkedin.com/in/chetan-kumar-022717277/",
   twitter: "https://twitter.com/chetanck03",
   insta: "https://www.instagram.com/chetanck_03/",
   facebook: "https://www.facebook.com/chetan.ck.3720",
 };
+
 
 export const skills = [
   {
@@ -85,7 +87,45 @@ export const skills = [
       },
     ],
   },
- 
+  {
+    title: "Blockchain",
+    skills: [
+      {
+        name: "Solidity",
+        image: "https://upload.wikimedia.org/wikipedia/commons/9/98/Solidity_logo.svg",
+      },
+     
+      {
+        name: "Rust",
+        image: "https://www.rust-lang.org/logos/rust-logo-blk.svg",
+      },
+      {
+        name: "Truffle",
+        image: "https://trufflesuite.com/img/truffle-logo-dark.svg",
+      },
+      {
+        name: "Solana",
+        image: "https://cryptologos.cc/logos/solana-sol-logo.svg?v=024",
+      },
+      {
+        name: "Ethereum",
+        image: "https://cryptologos.cc/logos/ethereum-eth-logo.svg?v=024",
+      },
+    
+      {
+        name: "DeFi",
+        image: "https://cryptologos.cc/logos/defichain-dfi-logo.svg?v=024",
+      },
+      
+     
+      {
+        name: "Metamask",
+        image: "https://seeklogo.com/images/M/metamask-logo-09EDE53DBD-seeklogo.com.png",
+      },
+    
+    ],
+  },
+  
   {
     title: "Others",
     skills: [
@@ -98,6 +138,10 @@ export const skills = [
         name: "GitHub",
         image:
           "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+      },
+      {
+        name: "Hardhat",
+        image: "https://seeklogo.com/images/H/hardhat-logo-888739EBB4-seeklogo.com.png",
       },
       {
         name: "Netlify",
@@ -120,6 +164,7 @@ export const skills = [
         image:
           "https://s3-alpha.figma.com/hub/file/1481185752/fa4cd070-6a79-4e1b-b079-8b9b76408595-cover.png",
       },
+      
     ],
   },
 ];
@@ -127,7 +172,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://media.licdn.com/dms/image/D560BAQEzduETSZNgdA/company-logo_200_200/0/1693382243519/codingraja_logo?e=1726704000&v=beta&t=o64Tzjt2izr3tXOk7sfVDB8ptIvWYzfuK5fRD1CYP1U",
+    img: "./public/images/codingRaja.png",
     role: "Full Stack Webdevelopment Intern",
     company: "Coding Raja Technologies",
     date: "May 2024 - June 2024",
@@ -141,13 +186,13 @@ export const experiences = [
       "CSS",
       "JavaScript",
     ],
-    doc: "https://drive.google.com/file/d/1cKbirYlUGbVmNn_qxIGAJlZ8pRYxC7ii/view?usp=drivesdk",
+    doc: "https://white-adjacent-cat-259.mypinata.cloud/ipfs/bafkreicsisvvy3jk67hkypecmpwvefbg7cr6ld5mtfd64fwno5abatc2ki",
   },
   {
     id: 1,
-    img: "https://media.licdn.com/dms/image/C4D0BAQFheEbgt4_U_w/company-logo_200_200/0/1661277231688/codeclause_logo?e=1726704000&v=beta&t=WSAgCKNbq1M9eoQtSpiTjVMXVS-u0tkg1lEqlLkzc2Q",
+    img: "./public/images/skill india.png",
     role: "Web Development Intern",
-    company: "Code Clause Pvt. Ltd.",
+    company: "Skill India",
     date: "June 2024 - July 2024",
     desc: "Deep dive into the world of technology & it was an opportunity to explore a wide array of technologies across different fields, tackling complex problems and finding innovative solutions. This experience sharpened my technical acumen and solidified my problem-solving skills, preparing me for a successful career in web development.",
     skills: [
@@ -158,20 +203,51 @@ export const experiences = [
       "Code Optimization",
       "JavaScript",
       "TypeScript",
-      " Next Js",
+      "NextJs",
     ],
-    doc: "https://drive.google.com/file/d/1eD0ynj39mt9UBoYqLsj9im3UVbAiCvnf/view?usp=sharing",
+    doc: "https://white-adjacent-cat-259.mypinata.cloud/ipfs/bafkreihhipateg6pwlbqc4ewfk66aldmc7bn64urutc3jxozscodlaicgy",
   },
- 
   {
     id: 2,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/girlScript.jpeg?alt=media&token=e656a621-cf3c-4230-bf0f-e74b4cec6035",
+    img: "./public/images/girlScript.jpeg",
     role: "Open Source Contributor ",
     company: "GirlScript Summer of Code",
     date: "May 2024 - Present",
-    desc: "Contributed to different open-source projects and learn from industry experts",
+    desc: "Contributed to different open-source projects and learned from industry experts",
+    skills: [
+      "Full Stack Development",
+      "Blockchain Development",
+      "NodeJS",
+      "MongoDB",
+      "Express.js",
+      "React",
+      "JavaScript",
+    ],
+    doc:"https://www.github.com/chetanck03"
+  },
+  {
+    id: 3,
+    img: "./public/images/fiverr.png", // Add your Fiverr logo or image path here
+    role: "Freelancer",
+    company: "Fiverr",
+    date: "Nov 2024 - Present",
+    desc: "Working as a freelancer providing web development and blockchain services, collaborating with clients on various projects to build innovative and user-friendly applications.",
+    skills: [
+      "Full Stack Development",
+      "ReactJS",
+      "NodeJS",
+      "MongoDB",
+      "Express.js",
+      "Solidity",
+      "Smart Contracts",
+      "Ethereum",
+      "Web3.js",
+      "JavaScript",
+    ],
+    doc:"https://www.fiverr.com/chetanck_dev"
   },
 ];
+
 
 export const education = [
   {
@@ -180,30 +256,49 @@ export const education = [
     school: "Guru Nanak Dev Engineering College , Ludhiana",
     date: "Aug 2022 - Sep 2026",
     grade: "7.55 CGPA",
-    desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Guru Nanak Dev Engineering College , Ludhiana. I have completed 4 semesters. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.",
+    desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Guru Nanak Dev Engineering College, Ludhiana. My coursework has included key subjects such as Data Structures, Algorithms, Object-Oriented Programming, and Database Management Systems, equipping me with a strong foundation in both theoretical concepts and practical application of computer science principles.",
     degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
-  },
-  {
-    id: 1,
-    img: "https://th.bing.com/th/id/OIP.i1V_Oj1llpMfeP-F-YOUrAHaHa?rs=1&pid=ImgDetMain",
-    school: "Pioneer Convent School , Gajjan Majra",
-    date: "Mar 2020 - Mar 2021",
-    grade: "83.70%",
-    desc: "I completed my class 12 high school education at  Pioneer Convent School , Gajjan Majra, where I studied Science (Non-Medical).",
-    degree: "CBSE, Grade: 83.73%",
-  },
-  {
-    id: 2,
-    img: "https://th.bing.com/th/id/OIP.i1V_Oj1llpMfeP-F-YOUrAHaHa?rs=1&pid=ImgDetMain",
-    school: "Pioneer Convent School , Gajjan Majra",
-    date: "Mar 2018 - Mar 2019",
-    grade: "71.22%",
-    desc: "I completed my class 10 education at Pioneer Convent School , Gajjan Majra.",
-    degree: "CBSE, Grade: 71.53%",
   },
 ];
 
+
 export const projects = [
+  {
+    id: 10,
+    title: "3D Website",
+    date: "Nov 2024 - Dec 2024",
+    description:
+      "Created an interactive 3D website using GSAP (GreenSock Animation Platform) to provide smooth and visually engaging animations. This project allows users to experience dynamic 3D effects, such as scrolling animations, 3D object transformations, and interactive elements that respond to user input. The website is built with modern web technologies like HTML, CSS, and JavaScript, while GSAP is used to bring a smooth, high-performance animation experience. The project demonstrates the power of GSAP in creating visually appealing websites that enhance user engagement and provide an immersive experience.",
+    image: "./images/3d.png",
+    tags: ["GSAP", "JavaScript", "HTML", "CSS", "3D Animations", "Web Design"],
+    category: "web app",
+    github: "https://github.com/chetanck03/Tech-Hub",
+    webapp: "https://ck-tech-hub.vercel.app/",
+  },
+  {
+    id: 9,
+    title: "Decentralized To-Do List ",
+    date: "Oct 2024 - Nov 2024",
+    description:
+      "Developed a decentralized to-do list application powered by the Ethereum blockchain. The application allows users to securely create, manage, and delete tasks on the blockchain. Each task is stored as a transaction in a smart contract, ensuring immutability and transparency. The platform offers an intuitive UI where users can interact with their to-do list using MetaMask, and all tasks are recorded and visible on the blockchain. This project demonstrates the potential of blockchain for managing decentralized data in a simple yet effective way.",
+    image: "./images/to.png",
+    tags: ["Solidity", "Ethereum", "Web3", "Smart Contracts", "Blockchain"],
+    category: "blockchain",
+    github: "https://github.com/chetanck03/BootCamp_Blockchain/tree/main/Projects/08)ToDoListDApp",
+    webapp: "https://to-do-list-dapp-rho.vercel.app/",
+  },
+  {
+    id: 8,
+    title: "Web3 Decentralized Voting ",
+    date: "Nov 2024 - Present",
+    description:
+      "Developed a decentralized voting system leveraging Web3 and blockchain technologies. The platform ensures secure, transparent, and tamper-proof voting for users. Voters are able to cast their votes directly on the blockchain, and all actions are recorded immutably. The system utilizes smart contracts for vote tallying and verification, ensuring fair and accurate results. This project demonstrates the power of blockchain in revolutionizing traditional voting systems and making them more secure and transparent.",
+    image: "./images/vote.png",
+    tags: ["Solidity", "Ethereum", "Web3", "Smart Contracts", "Blockchain"],
+    category: "blockchain",
+    github: "https://github.com/chetanck03/BootCamp_Blockchain/tree/main/Projects/07)VotingDApp/VotingDApp-9",
+    webapp: "https://voting-d-app-client.vercel.app/",
+  },
   {
     id: 0,
     title: "E-Commerce Website",
